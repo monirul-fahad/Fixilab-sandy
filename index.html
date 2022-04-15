@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Pixeden Icon  -->
+    <link rel="stylesheet" href="/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <!-- Ico Font and icon  -->
+    <link rel="stylesheet" href="icofont/icofont.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg header navbar-light header-nav fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand logo_color" href="#">
+            <img class="logo-dark" src="./images/logo.png" alt="Sandy" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link active" href="#features">Features</a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link active" href="#">Screenshot</a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link active" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown ps-4">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Blog Full Width</a></li>
+                  <li><a class="dropdown-item" href="#">Blog 2 column</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Blog left sidebar</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Blog right sidebar</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Single blog</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link active" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Banner -->
+    <section id="home" class="text-left banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="banner-content col-lg-6">
+            <h2>Sandy is best for<br /><span>landing page.</span></h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's typesetting industry
+              standard dummy text ever since the typesetting.
+            </p>
+            <a href="#" class="primary-btn">Download</a>
+          </div>
+        </div>
+        <div class="promo-image d-none d-lg-block">
+          <img class="img-fluid" src="./images/hero-mockup.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Feature section   -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 col-sm-10 offset-lg-3 offset-md-2 offset-sm-1"
+          >
+            <div class="section-title text-center">
+              <h2>Amazing <span>Features</span></h2>
+              <hr class="lines" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-end text-lg-end">
+            <div class="media flex-column">
+              <div class="brand-icon">
+                <i class="pe-7s-refresh-2"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Responsive design</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+
+            <div class="media flex-column">
+              <div class="brand-icon">
+                <i class="pe-7s-rocket"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Bootstrap framework</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+
+            <div class="media flex-column">
+              <div class="brand-icon">
+                <i class="pe-7s-settings"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Pixel perfect design</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img class="img-fluid" src="images/about-image.png" alt="" />
+          </div>
+          <div class="col-lg-4 text-start">
+            <div class="media flex-column">
+              <div class="brand-icon">
+                <i class="pe-7s-shield"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Unique Design</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+            <div class="media flex-column">
+              <div class="brand-icon">
+                <i class="pe-7s-smile"></i>
+              </div>
+              <div class="mt-3">
+                <h5>CSS3 Animations</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+            <div class="media flex-column">
+              <div class="brand-icon">
+                <i class="pe-7s-search"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Working Contact Form</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section   -->
+    <section id="about" class="bg-and-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 col-sm-10 offset-lg-3 offset-md-2 offset-sm-1"
+          >
+            <div class="section-title text-center">
+              <h2>About <span>Sandy</span></h2>
+              <hr class="lines" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row about-boxes">
+          <div class="col-lg-4 col-md-6">
+            <div class="media flex-column">
+              <div class="brand-icon m-auto">
+                <i class="pe-7s-box1"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Blog page included</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media flex-column">
+              <div class="brand-icon m-auto">
+                <i class="pe-7s-check"></i>
+              </div>
+              <div class="mt-3">
+                <h5>W3C Valid HTML</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media flex-column">
+              <div class="brand-icon m-auto">
+                <i class="pe-7s-look"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Very Easy to Customize</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media flex-column">
+              <div class="brand-icon m-auto">
+                <i class="pe-7s-magic-wand"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Google fonts used</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media flex-column">
+              <div class="brand-icon m-auto">
+                <i class="pe-7s-graph1"></i>
+              </div>
+              <div class="mt-3">
+                <h5>SEO friendly</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="media flex-column">
+              <div class="brand-icon m-auto">
+                <i class="pe-7s-display2"></i>
+              </div>
+              <div class="mt-3">
+                <h5>Well documented</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Showcase app section -->
+    <section id="showcase">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 showcase-img">
+            <img class="img-fluid" src="images/hero-mockup.png" alt="" />
+          </div>
+          <div class="col-lg-6 showcase-content">
+            <h2>Showcase your app with Sandy's</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's typesetting industry
+              standard dummy text ever since the typesetting. Lorem Ipsum has
+              been the industry's typesetting industry standard.
+            </p>
+
+            <a href="#" class="primary-btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- how works -->
+    <section id="how_works" class="bg-and-padding">
+      <div class="container">
+        <!-- Section title start -->
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 col-sm-10 offset-lg-3 offset-md-2 offset-sm-1"
+          >
+            <div class="section-title text-center">
+              <h2>How <span>Sandy</span> works?</h2>
+              <hr class="lines" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Section title end -->
+
+        <div class="row">
+          <div class="how-works-item text-center col-md-3">
+            <div class="icon-outer">
+              <i class="pe-7s-add-user"></i>
+              <!-- icon -->
+            </div>
+            <h4 class="title m-t-30">Add friends</h4>
+            <!-- text -->
+          </div>
+          <!-- End single how it item-->
+          <div class="how-works-item text-center col-md-3">
+            <div class="icon-outer">
+              <i class="pe-7s-like2"></i>
+              <!-- icon -->
+            </div>
+            <h4 class="title m-t-30">Posts like</h4>
+            <!-- text -->
+          </div>
+          <!-- End single how it item-->
+          <div class="how-works-item text-center col-md-3">
+            <div class="icon-outer">
+              <i class="pe-7s-mail-open"></i>
+              <!-- icon -->
+            </div>
+            <h4 class="title m-t-30">Messageing</h4>
+            <!-- text -->
+          </div>
+          <!-- End single how it item-->
+          <div class="how-works-item text-center col-md-3">
+            <div class="icon-outer">
+              <i class="pe-7s-plane"></i>
+              <!-- icon -->
+            </div>
+            <h4 class="title m-t-30">Check in</h4>
+            <!-- text -->
+          </div>
+          <!-- End single how it item-->
+        </div>
+      </div>
+    </section>
+    <section id="special-features" class="special-features bg-parallax">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            <h1>Sandy's special features.</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's typesetting industry
+              standard dummy text ever since the typesetting.
+            </p>
+            <a href="#" class="primary-btn">Learn more</a>
+            <img class="img-fluid mt30" src="images/iphone-mock.png" alt="" />
+          </div>
+          <!-- Special feature contenet end -->
+        </div>
+      </div>
+    </section>
+    <section id="screenshots" class="screenshots">
+      <div class="container">
+        <!-- Section title start -->
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 col-sm-10 offset-lg-3 offset-md-2 offset-sm-1"
+          >
+            <div class="section-title text-center">
+              <h2>Apps <span>Screenshots</span></h2>
+              <hr class="lines" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div
+                class="screenshots owl-carousel owl-theme zoom-gallery owl-loaded owl-drag"
+              >
+                <div class="owl-stage-outer">
+                  <div
+                    class="owl-stage"
+                    style="
+                      transform: translate3d(-2812px, 0px, 0px);
+                      transition: all 0.25s ease 0s;
+                      width: 4500px;
+                    "
+                  >
+                    <div
+                      class="owl-item cloned"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-5.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-5.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item cloned"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-6.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-6.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item cloned"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-7.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-7.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item cloned"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-8.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-8.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-1.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-1.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-2.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-2.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-3.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-3.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-4.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-4.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-5.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-5.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-6.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-6.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item active"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-7.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-7.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item active"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-8.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-8.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item cloned active"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-1.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-1.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item cloned active"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-2.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-2.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item cloned"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-3.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-3.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="owl-item cloned"
+                      style="width: 266.25px; margin-right: 15px"
+                    >
+                      <div class="shot-item">
+                        <a
+                          class="overlay"
+                          href="img/screenshots/screenshot-4.jpg"
+                          title="Front page"
+                        >
+                          <img
+                            class="img-fluid"
+                            src="images/screenshot-4.jpg"
+                            alt="Screenshot"
+                          />
+                          <i class="pe-7s-camera item-icon"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-nav disabled">
+                  <div class="owl-prev">prev</div>
+                  <div class="owl-next">next</div>
+                </div>
+                <div class="owl-dots">
+                  <div class="owl-dot"><span></span></div>
+                  <div class="owl-dot active"><span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery cdn  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- owl carousel cdn  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
+  </body>
+</html>
