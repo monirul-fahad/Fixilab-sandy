@@ -47,6 +47,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- popup  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+      integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Header  -->
@@ -485,7 +494,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-5.jpg"
                           title="Front page"
                         >
@@ -504,7 +513,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-6.jpg"
                           title="Front page"
                         >
@@ -523,7 +532,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-7.jpg"
                           title="Front page"
                         >
@@ -542,7 +551,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-8.jpg"
                           title="Front page"
                         >
@@ -561,7 +570,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-1.jpg"
                           title="Front page"
                         >
@@ -580,7 +589,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-2.jpg"
                           title="Front page"
                         >
@@ -599,7 +608,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-3.jpg"
                           title="Front page"
                         >
@@ -618,7 +627,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-4.jpg"
                           title="Front page"
                         >
@@ -637,7 +646,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-5.jpg"
                           title="Front page"
                         >
@@ -656,7 +665,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-6.jpg"
                           title="Front page"
                         >
@@ -675,7 +684,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-7.jpg"
                           title="Front page"
                         >
@@ -694,7 +703,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-8.jpg"
                           title="Front page"
                         >
@@ -713,7 +722,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-1.jpg"
                           title="Front page"
                         >
@@ -732,7 +741,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-2.jpg"
                           title="Front page"
                         >
@@ -751,7 +760,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-3.jpg"
                           title="Front page"
                         >
@@ -770,7 +779,7 @@
                     >
                       <div class="shot-item">
                         <a
-                          class="overlay"
+                          class="overlay gallery-lightbox"
                           href="images/screenshot-4.jpg"
                           title="Front page"
                         >
@@ -807,22 +816,40 @@
       referrerpolicy="no-referrer"
     ></script>
     <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    responsive:{
-        0:{
-            items:1
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
         },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
-    }
-})
+      });
+    </script>
+    <!-- popup  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+      integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".gallery-lightbox").magnificPopup({
+          type: "image",
+          gallery: {
+            enabled: true,
+          },
+        });
+      });
     </script>
   </body>
 </html>
