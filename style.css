@@ -220,12 +220,8 @@ a:hover {
 .about-boxes .media p{
     margin-bottom:0px;
 }
-.about .about-boxes .media:hover {
-    background: #ffffff;
-    box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
-}
 .about-boxes .media:hover {
-    background: #eef4f5;
+    background: #fff;
     box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
 }
 
