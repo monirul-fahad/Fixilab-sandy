@@ -430,3 +430,12 @@ color: white;
     .mfp-counter{
         display:none;
     }
+
+    .accordion-button{
+        background-color: rgb(8, 8, 238) !important;
+        color: white;
+    }
+
+    .accordion-button::after{
+        color: white !important
+    }
