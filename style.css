@@ -517,3 +517,9 @@ color: white;
     .featured-package .primary-btn:hover {
         background: #EEF4F5;
     }
+
+    /* download apps  */
+    .download-apps{
+        padding: 100px 0;
+        background-color: #EEF4F5 ;
+    }
