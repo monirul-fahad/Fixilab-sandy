@@ -523,3 +523,29 @@ color: white;
         padding: 100px 0;
         background-color: #EEF4F5 ;
     }
+
+    /* fact counter */
+    .facts-section{
+        padding: 100px 0px;
+        background-image: url("images/counter-bg.jpg");
+        box-shadow: inset 0 0 0 2000px rgba(52, 106, 254, 0.699);
+    }
+
+    .single-counter{
+        color:#ffffff;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .single-counter h4{
+        color:#ffffff;
+        font-weight:normal;
+    }
+    .single-counter i{
+        font-size:50px;
+    }
+    .counter-number{
+        margin-top:15px;
+        margin-bottom:15px;
+        font-size:35px;
+    }
+    
