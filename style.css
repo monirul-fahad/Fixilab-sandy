@@ -548,4 +548,91 @@ color: white;
         margin-bottom:15px;
         font-size:35px;
     }
+
+    /* contact form  */
+    .contact{
+        padding: 100px 0px;
+        background-image: url("images/contact-bg.jpg");
+        box-shadow: inset 0 0 0 2000px rgba(52, 106, 254, 0.699);
+    }
+
+    .contact-block {
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 2px;
+        padding: 30px;
+        overflow: hidden;
+    }
+    .contact-block h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contact-block .subtitle {
+        margin-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .email-success,
+    .email-failed,
+    .email-loading,
+    .success-msg,
+    .error-msg {
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+        display: none;
+        margin: 0px!important;
+    }
+    .email-loading {
+        color: #52B8FF;
+    }
+    .email-loading img {
+        width: 15px;
+        position: relative;
+        top: -2px;
+    }
+    .email-failed,
+    .error-msg {
+        color: #FF5252 !important;
+    }
+    .email-failed .icon {
+        font-size: 20px;
+        position: relative;
+        top: 5px;
+    }
+    .email-success,
+    .success-msg {
+        color: #56CC35;
+    }
+    .email-failed .icon,
+    .email-success .icon,
+    .error-msg .icon,
+    .success-msg .icon {
+        font-size: 20px;
+        position: relative;
+        top: 2px;
+    }
+    .input-box {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 50px;
+        box-shadow: none;
+        font-size: 16px;
+    }
+    .textarea-box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: none;
+        font-size: 16px;
+    }
+    textarea.form-control.textarea-box {
+        height: 120px;
+    }
+    .input-box:focus,
+    .textarea-box:focus {
+        border: 1px solid #346afe;
+        box-shadow: none;
+    }
+
+  
+    
     

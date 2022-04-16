@@ -1549,6 +1549,51 @@
       </div>
   </section>
 
+  <!-- contact form  -->
+  <section id="contact" class="contact bg-parallax">
+    <div class="gredient-overlay opacity-8"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="contact-block text-center">
+        <!-- Contact form title start -->
+                    <div class="col-sm-12">
+                        <h3>Need to talk anything about?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                    </div>
+        <!-- Contact form title end -->
+                    <!-- Contact form start -->
+        <form id="contact-form" method="post" action="php/sendmail.php">
+          <div class="message col-lg-12">
+            <p class="email-loading"><img src="img/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
+            <p class="email-success"><i class="icon fa fa-check"></i> Your quote has successfully been sent.</p>
+            <p class="email-failed"><i class="icon fa fa-times"></i> Something went wrong!</p>
+          </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input name="name" class="contact-name form-control input-box" id="contact-name" type="text" placeholder="Your Name" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <input name="email" class="contact-email form-control input-box" id="contact-email" type="email" placeholder="Your Email" required="">
+                            </div>
+                            <div class="col-sm-12">
+                                <input name="subject" class="contact-subject form-control input-box" id="contact-subject" type="text" placeholder="Subject" required="">
+                            </div>
+                            <div class="col-sm-12">
+                                <textarea name="message" class="contact-message form-control textarea-box" id="contact-message" placeholder="Your Message" required=""></textarea>
+                            </div>
+                            <div class="col-sm-12">
+                                <button class="primary-btn"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Now</button>
+                            </div>
+                        </div>          
+        </form>
+                    <!-- Contact form end -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     <!-- jquery cdn  -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
