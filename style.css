@@ -633,6 +633,43 @@ color: white;
         box-shadow: none;
     }
 
+/* Testimonial  */
+
+.testimonial{
+    padding: 100px 0;
+    background-color: #EEF4F5 ;
+}
+
+    .testimonial-item {
+        text-align: center;
+    }
+    .testimonial-item blockquote {
+        font-style: italic;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size:18px;
+    }
+    .client-avater {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 5px;
+        background: #EEF4F5;
+    }
+    .client-avater {
+        background: #ffffff;
+    }
+    .client-avater img {
+        width: auto;
+        margin: 0 auto;
+    }
+    .company-info {
+        margin-bottom: 0px;
+        font-size:14px;
+    }
+
   
     
     
