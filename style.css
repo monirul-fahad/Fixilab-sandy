@@ -419,7 +419,7 @@ color: white;
     }
     .screenshots-mobile{
         padding: 32px 14px 0px 14px;
-        background: rgba(0, 0, 0, 0) url(../img/screenshot-mobile.png) no-repeat scroll top center;
+        background: rgba(0, 0, 0, 0) url(images/screenshot-mobile.png) no-repeat scroll top center;
         background-size: 100%;
         max-width: 293px;
         margin: 0 auto;
