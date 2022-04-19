@@ -844,6 +844,33 @@ color: white;
     .footer-p{
 color: #54657e
     }
+
+    /* subscription  */
+    .subscription{
+        padding: 100px 0;
+    }
+    .subscription-form {
+        margin-bottom: 70px;
+    }
+    .subscription-form .input-box {
+        min-width: 320px;
+    }
+    .subscribe-area h3, .download-area h3 {
+        margin-bottom: 10px;
+    }
+    .subscribe-area .primary-btn{
+        margin-left:8px;
+    }
+    .download-area p {
+        margin-bottom: 25px;
+    }
+    .download-area .primary-btn {
+        margin-bottom: 8px;
+        margin-left: 8px;
+        padding: 10px 18px;
+        font-size: 14px;
+        margin-right: 5px;
+    }
     
   
     
