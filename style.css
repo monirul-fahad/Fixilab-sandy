@@ -67,6 +67,12 @@ a:hover {
     color: #fff !important
 }
 
+@media (min-width: 1400px){
+.container{
+    max-width: 1140px;
+}
+}
+
 
 /* header css  */
 .header {
