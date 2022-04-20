@@ -1,6 +1,10 @@
 /* global css  */
 body {
   font-family: "Poppins", sans-serif;
+  color: #54657e;
+  font-size: 15px;
+  line-height: 1.6em;
+  font-weight: 400;
 }
 
 h1,
@@ -15,6 +19,7 @@ button {
   margin-top: 0;
   margin-bottom: 0;
   text-decoration: none;
+  
 }
 h1 {
     font-size: 48px;
@@ -83,6 +88,10 @@ a:hover {
 }
 .logo_color {
   color: #0d3559;
+}
+
+.header a{
+    color: #0d3559;
 }
 
 
@@ -207,6 +216,14 @@ a:hover {
 }
 .media:hover .brand-icon i {
     color: #ffffff;
+}
+
+.brand-body{
+    margin-top: 20px;
+}
+
+.brand-text{
+    padding-bottom: 16px;
 }
 
 
