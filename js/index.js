@@ -23,3 +23,5 @@ var PATH = {};
     PATH.sliderTestimonial();
   });
 })(jQuery);
+
+new WOW().init();
